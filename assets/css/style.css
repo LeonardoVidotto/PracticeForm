@@ -1,0 +1,165 @@
+* {
+    font-family: arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    margin-bottom: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    justify-content: space-between;
+    width: 650px;
+    background-color: #faa660;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin-top: 10px;
+}
+.logo {
+    width: 600px;
+    background-color: #faa660;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.description{
+    width: 580px;
+    background-color: #FFFFFF;
+    margin-left: 25px;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+section .container_meio{
+    justify-content: space-between;
+    width: 650px;
+    background-color: #faa660;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.formulário{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 590px;
+    margin-left: 25px;
+    padding-left: 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+}
+input[type=text] {
+    width: 350px;
+    outline: 0;
+    border: 1px solid #000000;
+    background-color: #faa660;
+    border-radius: 5px;
+
+}
+input[type=password] {
+    width: 200px;
+    outline: 0;
+    border: 1px solid #000000;
+    background-color: #faa660;
+    border-radius: 5px;
+}
+input[type=email],
+input[type=date],
+input[type=tel],
+input[type=submit]{
+    outline: 0;
+    border: 1px solid #000000;
+    background-color: #faa660;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    background-color: #000000;
+    color:#faa660;
+}
+.termoslink {
+    color: #000000;
+    text-decoration: none;
+}
+.termoslink:hover {
+    color: #000000;
+    text-decoration: none;
+    text-decoration: underline;
+}
+fieldset {
+    border-radius: 5px;
+    border: 2px solid #faa660;
+}
+legend {
+    background-color: #faa660;
+    border-radius: 5px;
+    padding: 5px;
+}
+.direitos{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.direitos a{
+    text-decoration: none;
+    color:#000000;
+}
+.direitos a:hover{
+    text-decoration: underline;
+    color:#faa660;
+}
+
+@media (max-width:425px){
+   .container{
+       width: 425px;
+   }
+   .logo{
+    width: 200px;
+}
+    .description{
+        width: 360px;
+    }
+    section .container_meio{
+        width: 425px;
+    }
+    .formulário{
+        width: 370px;
+    }
+    .description b{
+        font-size: 13px;
+        text-align: center;
+    }
+    legend{
+        font-size: 13px;
+    }
+   .direitos{
+       font-size: 10px;
+   }
+   form{
+       width: 290px;
+   }
+   input[type=text],
+   input[type=email],
+   input[type=date],
+   input[type=tel],
+   input[type=password] {
+    width: 250px;
+    }
+    label{
+        font-size: 13px;
+    }
+}
