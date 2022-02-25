@@ -122,6 +122,9 @@ legend {
     text-decoration: underline;
     color:#faa660;
 }
+input[type=email]::placeholder, input[type=tel]::placeholder{
+    color: #2e2e2e;
+}
 
 @media (max-width:425px){
    .container{
